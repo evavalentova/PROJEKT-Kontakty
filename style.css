@@ -16,6 +16,7 @@ Tablet  540px - 959px (čti jako 540px a víc)
 PC      960px a víc
 */
 
+
 h1 {
 	text-align: center;
 }
@@ -30,6 +31,7 @@ h2 {
 	width: 80%;
 	text-align: center;
 	margin: 20px auto;
+	align-items: center;
 }
 
 .lady img {
@@ -49,7 +51,7 @@ h2 {
 	}
 
 	.lady {
-		width: 45%;
+		flex-basis: 45%;
 		display: flex;
 	}
 
@@ -78,7 +80,7 @@ h2 {
 
 	.lady {
 		display: block;
-		width: 25%;
+		flex-basis: 25%;
 		margin: 0 20px;
 	}
 
